@@ -1,0 +1,19 @@
+CONCIERGE GEMS - versao NATIVA do Second Life (sem Media on a Prim)
+==================================================================
+
+Comece por:  docs/02-manual-instalacao.md
+Ja tem o painel da v1?  docs/03-atualizacao-2.0-animacao-fluida.md (gemas que se movem de verdade)
+
+Pastas
+  scripts/   scripts LSL + modelo do notecard CG_CONFIG
+  textures/  3 texturas prontas para upload (gemas, explosao, numeros)
+  audio/     21 sons WAV prontos para upload
+  docs/      auditoria/arquitetura (01) e manual de instalacao (02)
+  tests/     testes automaticos da logica + resultados
+  tools/     geradores das texturas e dos sons, e o interpretador de LSL usado nos testes
+
+Custo de upload no Second Life: ~L$ 240 (3 texturas + 21 sons, L$ 10 cada).
+
+AVISO: nada aqui foi testado DENTRO do Second Life. As regras foram validadas fora do jogo
+(8.727 checagens contra o codigo original) e a sintaxe passa por um verificador proprio,
+mas nao pelo compilador da Linden. Veja "Limites conhecidos" no fim do manual.

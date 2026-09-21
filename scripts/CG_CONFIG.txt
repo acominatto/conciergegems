@@ -1,0 +1,26 @@
+# CG_CONFIG - configuracao do Concierge Gems nativo.
+# Crie um NOTECARD chamado exatamente "CG_CONFIG" dentro do prim raiz do tabuleiro e cole este conteudo.
+# Preencha os UUIDs DEPOIS de subir as texturas no Second Life (Build > Upload > Image).
+# Linhas que comecam com # sao ignoradas.
+#
+# Como pegar o UUID de uma textura: no inventario, clique com o botao direito > Copy Asset UUID.
+# Se deixar em branco, o script usa a textura de MESMO NOME que estiver no inventario do prim raiz
+# (mais simples: basta arrastar as 3 texturas para dentro do prim e nao mexer neste arquivo).
+
+TEX_GEMS   = CG_gems_atlas_1024x512
+TEX_FX     = CG_fx_atlas_1024x1024
+TEX_DIGITS = CG_digits_atlas_512x512
+
+# Som: 1 liga, 0 desliga
+SOUND = 1
+
+# ---------------------------------------------------------------------------
+# Integracao OPCIONAL com o Concierge OS (ranking e historico).
+# O jogo funciona 100% sem isto. Deixe em branco para nao sincronizar.
+# Pegue estes valores no painel do Concierge OS, em Lands > Gems.
+# NAO distribua copias deste objeto com o segredo preenchido.
+# ---------------------------------------------------------------------------
+API_URL        =
+LAND_ID        =
+MACHINE_ID     =
+MACHINE_SECRET =
